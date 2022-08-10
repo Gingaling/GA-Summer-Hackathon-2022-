@@ -3,6 +3,7 @@ import './App.css';
 import LoginButton from './components/LoginButton';
 import LogoutButton from './components/LogoutButton';
 import Profile from './components/Profile';
+import AllergyDisclaimer from './components/disclaimer';
 import { useAuth0 } from '@auth0/auth0-react';
 import NavBar from './components/NavBar';
 import Form from './pages/Form/Form.js';
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
     <div>
       <LoginButton />
     </div>
@@ -23,6 +25,12 @@ function App() {
     {/* <Profile /> */}
     <NavBar />
     <Form />
+=======
+    <LoginButton />
+    <LogoutButton />
+    <Profile />
+    <AllergyDisclaimer />
+>>>>>>> 30d8fd661888854e70e202c87c07aca40f0e61e7
     </>
   );
 }
